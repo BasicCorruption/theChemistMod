@@ -11,6 +11,7 @@ public class ModItems {
     // TODO: First we will add all the elements that are metals. Check trello for list of metals.
 
     public static final Item RAW_LITHIUM = registerItem("raw_lithium", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item LITHIUM_INGOT = registerItem("lithium_ingot", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TheChemistMod.MOD_ID, name), item);
