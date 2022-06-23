@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "tcm:raw_lithium"
+  },
+  "result": "tcm:lithium_ingot",
+  "experience": 5,
+  "cookingtime": 100
+}

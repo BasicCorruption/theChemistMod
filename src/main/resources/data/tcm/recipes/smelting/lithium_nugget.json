@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "tcm:lithium_dust"
+  },
+  "result": "tcm:lithium_nugget",
+  "experience": 5,
+  "cookingtime": 200
+}

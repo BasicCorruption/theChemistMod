@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tcm:lithium_ingot"
+    }
+  },
+  "result": {
+    "item": "tcm:lithium_block",
+    "count": 1
+  }
+}
