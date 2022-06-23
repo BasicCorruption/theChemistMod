@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/map",
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "tcm:item/periodic_table"
   }
