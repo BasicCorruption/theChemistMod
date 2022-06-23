@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/map",
+  "textures": {
+    "layer0": "tcm:item/periodic_table"
+  }
+}
