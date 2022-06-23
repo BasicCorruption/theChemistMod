@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tcm:lithium_ore",
+    "tcm:lithium_block"
+  ]
+}

@@ -13,8 +13,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
-    public static final Block LITHIUM_BLOCK = registerBlock("lithium_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().strength(6f)), TCMItemGroup.TCM_TAB);
-    public static final Block LITHIUM_ORE = registerBlock("lithium_ore", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3f)), TCMItemGroup.TCM_TAB);
+    public static final Block LITHIUM_BLOCK = registerBlock("lithium_block", new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), TCMItemGroup.TCM_TAB);
+    public static final Block LITHIUM_ORE = registerBlock("lithium_ore", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(4f)), TCMItemGroup.TCM_TAB);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
