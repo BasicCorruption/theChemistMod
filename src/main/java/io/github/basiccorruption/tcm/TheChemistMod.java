@@ -1,5 +1,6 @@
 package io.github.basiccorruption.tcm;
 
+import io.github.basiccorruption.tcm.block.ModBlocks;
 import io.github.basiccorruption.tcm.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -12,5 +13,6 @@ public class TheChemistMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

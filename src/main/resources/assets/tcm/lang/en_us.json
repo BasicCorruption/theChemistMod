@@ -1,5 +1,6 @@
 {
   "item.tcm.raw_lithium": "Raw Lithium",
   "item.tcm.lithium_ingot": "Lithium Ingot",
-  "item.tcm.lithium_nugget": "Lithium Nugget"
+  "item.tcm.lithium_nugget": "Lithium Nugget",
+  "block.tcm.lithium_block": "Lithium Block"
 }
