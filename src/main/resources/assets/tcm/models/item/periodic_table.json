@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tcm:item/periodic_table"
+    "layer0": "tcm:item/periodic_table_icon"
   }
 }

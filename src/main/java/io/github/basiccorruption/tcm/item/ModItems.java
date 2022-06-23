@@ -9,7 +9,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    public static final Item PERIODIC_TABLE = registerItem("periodic_table", new Item(new FabricItemSettings().group(TCMItemGroup.TCM_TAB)));
+//    public static final Item PERIODIC_TABLE = registerItem("periodic_table", new Item(new FabricItemSettings().group(TCMItemGroup.TCM_TAB)));
+    public static final Item PERIODIC_TABLE = registerItem("periodic_table", new PeriodicTable(new FabricItemSettings().group(TCMItemGroup.TCM_TAB)));
     // TODO: First we will add all the elements that are metals. Check trello for list of metals.
 
     public static final Item RAW_LITHIUM = registerItem("raw_lithium", new Item(new FabricItemSettings().group(TCMItemGroup.TCM_TAB)));
