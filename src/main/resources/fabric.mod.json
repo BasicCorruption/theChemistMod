@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "tcm",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "The Chemist Mod",
+  "description": "This mod adds a lot of chemistry stuff to the game.",
   "authors": [
-    "Me!"
+    "SidGames5"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://basiccorruption.github.io/the-chemist-mod/",
+    "sources": "https://github.com/BasicCorruption/theChemistMod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/tcm/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.basiccorruption.tcm.TheChemistMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "tcm.mixins.json"
   ],
 
   "depends": {
