@@ -1,6 +1,7 @@
 package io.github.basiccorruption.tcm.block;
 
 import io.github.basiccorruption.tcm.TheChemistMod;
+import io.github.basiccorruption.tcm.itemgroup.TCMItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -12,8 +13,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
-    public static final Block LITHIUM_BLOCK = registerBlock("lithium_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().strength(6f)), ItemGroup.BUILDING_BLOCKS);
-    public static final Block LITHIUM_ORE = registerBlock("lithium_ore", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3f)), ItemGroup.BUILDING_BLOCKS);
+    public static final Block LITHIUM_BLOCK = registerBlock("lithium_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool().strength(6f)), TCMItemGroup.TCM_TAB);
+    public static final Block LITHIUM_ORE = registerBlock("lithium_ore", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3f)), TCMItemGroup.TCM_TAB);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
