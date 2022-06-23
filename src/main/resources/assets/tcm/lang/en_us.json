@@ -4,5 +4,6 @@
   "item.tcm.lithium_nugget": "Lithium Nugget",
   "item.tcm.lithium_dust": "Lithium Dust",
   "block.tcm.lithium_block": "Lithium Block",
-  "block.tcm.lithium_ore": "Lithium Ore"
+  "block.tcm.lithium_ore": "Lithium Ore",
+  "itemGroup.tcm.tcm_tab": "The Chemist Mod"
 }
